@@ -1,0 +1,51 @@
+@font-face {
+    font-family: DigimonBasic;
+    src: url(D:\programacion\DigimonBasic);
+}
+
+header {
+    align-items: center;
+    object-fit: contain;
+
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgba(55, 112, 65, 0.829));
+}
+
+h1 {
+    font-family: DigimonBasic;
+    font-size: xx-large;
+    text-align: center;
+    border: darkolivegreen;
+    padding: 1cm;
+}
+
+nav {
+    display: block;
+    background-color: rgba(15, 15, 15, 0.596);
+}
+
+div {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(32, 100, 55);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-size: xx-large;
+    text-decoration-color: greenyellow;
+}
+
+li:visited {
+    color: rgb(7, 48, 7);
+}
